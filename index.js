@@ -29,8 +29,7 @@ console.log(coolString)
 const string3 = "Na";
 
 // Your code here...
-
-
+console.log(string3.repeat(4) + " Batman!")
 
 
 /*******************************************
