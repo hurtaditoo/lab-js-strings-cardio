@@ -17,8 +17,8 @@ console.log(string1.indexOf('j'));
 const string2 = "ABCDEFGHJKLO";
 
 // Your code here...
-const coolString = string2[2] + string2[string2.length-1] + string2[string2.length-1] + string2[string2.length-2]
-console.log(coolString)
+const coolString = string2[2] + string2[string2.length-1] + string2[string2.length-1] + string2[string2.length-2];
+console.log(coolString);
 
 
 /*****************************************************
@@ -29,7 +29,7 @@ console.log(coolString)
 const string3 = "Na";
 
 // Your code here...
-console.log(string3.repeat(4) + " Batman!")
+console.log(string3.repeat(4) + " Batman!");
 
 
 /*******************************************
@@ -40,7 +40,8 @@ console.log(string3.repeat(4) + " Batman!")
 const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pineapple";
 
 // Your code here...
-
+const startsIndex = fruit.indexOf('watermelon');
+console.log(fruit.slice(startsIndex, startsIndex+10));
 
 
 /***************************************************
